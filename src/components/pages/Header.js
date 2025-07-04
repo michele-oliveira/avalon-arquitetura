@@ -1,6 +1,6 @@
 import logo from "../../assets/images/logoAvalon.png";
 import predio from "../../assets/images/predio.png";
-import perfil from "../../assets/images/perfil.png";
+import perfil from "../../assets/images/perfil3.png";
 import Button from "../Button";
 
 function Header() {
