@@ -18,8 +18,8 @@ function Header() {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-90 z-0" />
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10 px-6 max-w-6xl w-full mx-auto">
         <div className="flex-1 text-center md:text-left text-white">
-          <img src={logo} alt="Logo Avalon" className="w-32 mx-auto md:mx-0" />
-          <h1 className="text-1xl pb-4 text-cyan-700 font-serif font-semibold tracking-wide uppercase">
+          <img src={logo} alt="Logo Avalon" className="w-20 mx-auto md:mx-0" />
+          <h1 className="text-sm pb-4 text-cyan-700 font-serif font-semibold tracking-wide uppercase">
             Avalon Arquitetura
           </h1>
 

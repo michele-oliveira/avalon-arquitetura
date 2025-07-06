@@ -1,3 +1,5 @@
+import Action from './components/pages/Action';
+import Differentials from './components/pages/Differentials';
 import Header from './components/pages/Header';
 import Projects from './components/pages/Projects';
 import './index.css';
@@ -7,6 +9,8 @@ function App() {
     <div >
       <Header />
       <Projects />
+      <Action />
+      <Differentials />
     </div>
   );
 }

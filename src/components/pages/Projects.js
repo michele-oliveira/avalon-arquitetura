@@ -1,14 +1,18 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Button from "../Button";
 
 import "swiper/css";
 import "swiper/css/autoplay";
 
 import fachada from "../../assets/images/fachada.png";
 import cozinha from "../../assets/images/cozinha.png";
-import sala from "../../assets/images/sala.png";
+import sala from "../../assets/images/sala3.png";
 import quarto from "../../assets/images/quarto.png";
 import gourmet from "../../assets/images/gourmet.png";
+import areaGourmet from "../../assets/images/áreaGourmet.png";
+import fachada2 from "../../assets/images/fachada2.png";
+
 
 const images = [
   { src: fachada, alt: "Fachada com elementos em madeira" },
@@ -16,13 +20,15 @@ const images = [
   { src: sala, alt: "Sala com elementos clean e estilo contemporâneo" },
   { src: quarto, alt: "Quarto com sofisticação e leveza" },
   { src: gourmet, alt: "Espaço Gourmet com área verde para momentos em família" },
+  { src: areaGourmet, alt: "Espaço Gourmet com área verde e piscina para momentos em família" },
+  { src: fachada2, alt: "Fachada com jardim" },
 ];
 
 export default function Projects() {
   return (
     <div className="w-full bg-gradient-to-b from-white via-gray-100 to-white py-14 px-4 flex flex-col items-center">
-      <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 mb-12">
-        CONHEÇA NOSSOS <span className="text-blue-600">PROJETOS DE DESTAQUE</span>
+      <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12">
+        CONHEÇA NOSSOS <span className="text-cyan-700">PROJETOS DE DESTAQUE</span>
       </h1>
 
       <Swiper
@@ -54,6 +60,7 @@ export default function Projects() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <Button text="Quero fazer um orçamento"/>
     </div>
   );
 }
